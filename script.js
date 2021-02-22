@@ -1,5 +1,5 @@
 // LOADER, SIDEBAR and ABOUT INFO
-const sidey = document.getElementById('conto');
+const sidey = document.getElementById('sidebar');
 const loader = document.getElementById("loaderDiv");
 const extra = document.getElementById('info');
 const blue = window.matchMedia("(max-width: 800px)");
@@ -28,37 +28,26 @@ myFunction(blue);
 
 //GENERAL SCRIPT
 const bingoArray = [
-  "archery.svg",
-  "badminton.svg",
-  "basketball.svg",
-  "boxing.svg",
-  "climbing.svg",
-  "cycling.svg",
-  "diving.svg",
-  "driving.svg",
-  "football.svg",
-  "golf.svg",
-  "gymnastics.svg",
-  "hang-gliding.svg",
-  "hiking.svg",
-  "hockey.svg",
-  "horse-riding.svg",
-  "ice-skating.svg",
-  "karate.svg",
-  "kayak.svg",
-  "paddle-surf.svg",
-  "rugby.svg",
-  "running.svg",
-  "sailing.svg",
-  "skiing.svg",
-  "surfing.svg",
-  "swimming.svg",
-  "table-tennis.svg",
-  "tennis.svg",
-  "trophy.svg",
-  "weight-lifting.svg",
-  "windsurfing.svg",
-  "yoga.svg" 
+  "ambulance.png",
+  "balloon.png",
+  "bike.png",
+  "car.png",
+  "coach.png",
+  "digger.png",
+  "ecar.png",
+  "firetruck.png",
+  "helicopter.png",
+  "limo.png",
+  "lorry.png",
+  "motorbike.png",
+  "plane.png",
+  "sailingboat.png",
+  "schoolbus.png",
+  "speedboat.png",
+  "submarine.png",
+  "taxi.png",
+  "train.png",
+  "van.png",
 ];
 
   const gameboard = document.getElementById("gameboard");
