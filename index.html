@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A fun, free  online sports bingo game for learning English">
+    <meta name="keywords" content="Sports bingo online caller">
+    <title>Sports Bingo Caller</title>
+    <link rel="icon" type="image/png"
+    href="favicon.png";
+  />
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="csi.min.js"></script>
+</head>
+<body>
+
+  <div class="loader-div" id="loaderDiv" onload="checkForTop();">
+    <div class="loader-container ghost">
+      <img src="img/loader/basketball.svg" alt="" />
+    </div>
+    <div class="basediv"></div>
+  </div>
+
+    <div class="nav-bar" id="navbar">
+        <a href="index.html" class="nav-bar__logo">
+          <svg class="icon-header nav-bar__logo-img">
+            <use xlink:href="sprite2.svg#Buho" onclick="scrollUp()">
+            </use>
+          </svg>    </a>
+        <h3 class="nav-bar__title">Esl-Ology.Com</h3>
+        <div class="nav-bar__title-page">
+          <span class="nav-bar__title-page-main" id="pageTitle">SPORTS BINGO CALLER</span>
+      </div>
+      <div class="nav-bar__links">
+      <a href="index.html" class="nav-bar__link link3">Home</a>
+      <svg viewBox="0 0 100 80" width="40" height="20" onclick="toggler();" id="menu" class="menu">
+        <rect width="100" height="12"></rect>
+        <rect y="30" width="100" height="12"></rect>
+        <rect y="60" width="100" height="12"></rect>
+      </svg>      </div>
+    </div>
+    
+
+    <div id="wrapper" class="wrapper">
+
+      <div class="sidebar-container" id="conto">
+        <div data-include="sidebar.html">
+        </div>
+      </div>
+
+        <div class="container" id="container">
+
+          <div class="buttons">
+            <button type="button" class="btn btn1" onclick ="bingoCall()" id="button0">images & words</button>
+            <button type="button" class="btn btn2" onclick ="bingoCall1()"id="button1">images</button>
+            <button type="button" class="btn btn3" onclick ="bingoCall2()"id="button2">words</button>
+            <button type="button" class="btn btn4" onclick = "document.location.reload()" id="clicker2">RESET</button>
+        </div>
+          <div class="title" id="title">
+            <h1>Click a button to start</h1>
+            <p class="large">Choose from images, images with words, or just words</p>
+          </div>
+        
+    
+
+    
+          <div class="gameboard" id="gameboard"></div>
+            
+            <div class="imgdiv" id="imgdiv">
+              <img src="img/SportsBingoCard.jpg" class="card" alt="an image of a bingo card">
+            </div>  
+            
+      </div>
+    
+
+      <div class="links">
+        <h2 class="links__text">
+          Try our other TEFL sports games.
+        </h2>
+        <div class="links__images">
+          <div class="links__images-1 figure">
+            <a href="flashcard-sports.html">
+            <img src="img/FlashcardSports.jpg" alt=""></a>
+              <figcaption>Sports Photo Flashcards</figcaption>
+          </div>
+          <div class="links__images-1 figure">
+            <a href="matching-sports.html">
+            <img src="img/Memory-sports.jpg" alt=""></a>
+              <figcaption>Sports Observation Game</figcaption>
+          </div>
+      </div> -->
+
+
+   </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__copyright" id="footer">
+        <p>© 2020 Copyright Esl-ology.com & copyright owners.</p>
+        <p>Full credits <a href="sports-credits.html">here</a>. Thanks, guys!</p>
+  </div>
+    </footer>
+
+  <div class="hidden"><img src="sprite2.svg" style="display: none">
+      <script>
+    <!--//--><![CDATA[//><!--
+    var images = new Array();
+      function preload(){
+        for(i=0; i<preload.arguments.length; i++){
+          images[i] = new Image();
+          images[i].src = preload.arguments[i];
+        }
+      }
+    preload(
+      "img/archery.svg",
+"img/badminton.svg",
+"img/basketball.svg",
+"img/boxing.svg",
+"img/climbing.svg",
+"img/cycling.svg",
+"img/diving.svg",
+"img/driving.svg",
+"img/football.svg",
+"img/golf.svg",
+"img/gymnastics.svg",
+"img/hang-gliding.svg",
+"img/hiking.svg",
+"img/hockey.svg",
+"img/horse-riding.svg",
+"img/ice-skating.svg",
+"img/karate.svg",
+"img/kayak.svg",
+"img/paddle-surf.svg",
+"img/rugby.svg",
+"img/running.svg",
+"img/sailing.svg",
+"img/skiing.svg",
+"img/surfing.svg",
+"img/swimming.svg",
+"img/table-tennis.svg",
+"img/tennis.svg",
+"img/trophy.svg",
+"img/weight-lifting.svg",
+"img/windsurfing.svg",
+"img/yoga.svg"
+    )
+      //--><!]]>
+    </script>
+  </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
