@@ -22,6 +22,7 @@
         
        }
     @media only screen and (max-width:$bp-small){
+        grid-row: 3/4;
         justify-content: center;
         width: 400px;
         height: auto;
